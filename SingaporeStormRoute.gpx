@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Simulated-location route for Xcode (Debug > Simulate Location, or the
+  scheme's Core Location options): a drive across Singapore's NEA zones on the
+  afternoon of the 2026-08-02 storm, passing the S909 station cluster at the
+  moment its five-minute total hit 11.6mm.
+
+  Waypoint times are UTC (15:05 SGT = 07:05Z); Xcode paces movement by the
+  deltas. HistoricalReplayTests pins each coordinate to the zone it must
+  resolve to, so this route and the automated expectations cannot disagree.
+-->
+<gpx version="1.1" creator="ReadyUp" xmlns="http://www.topografix.com/GPX/1/1">
+  <wpt lat="1.345" lon="103.944"><name>Tampines</name><time>2026-08-02T07:00:00Z</time></wpt>
+  <wpt lat="1.321" lon="103.924"><name>Bedok</name><time>2026-08-02T07:03:00Z</time></wpt>
+  <wpt lat="1.30568" lon="103.90093"><name>Marine Parade (storm peak)</name><time>2026-08-02T07:15:00Z</time></wpt>
+  <wpt lat="1.312" lon="103.862"><name>Kallang</name><time>2026-08-02T07:20:00Z</time></wpt>
+  <wpt lat="1.292" lon="103.844"><name>City</name><time>2026-08-02T07:24:00Z</time></wpt>
+  <wpt lat="1.34039" lon="103.705"><name>Jurong West</name><time>2026-08-02T07:35:00Z</time></wpt>
+</gpx>
